@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__content">
+                   <ul class="list">
+                    <a href="" class="logo"><img src="image/header_logo.png
+                      " alt="" class="log"></a> 
+                        <!-- <li class="nav__item"><a href="https://www.apple.com/ru/imac-24/" class="nav__link">iMac</a></li>
+                        <li class="nav__item"><a href="https://www.apple.com/ipad-10.2/" class="nav__link">iPad</a></li>
+                        <li class="nav__item"><a href="https://www.apple.com/iphone/" class="nav__link">iPhone</a></li> -->
+                   </ul>
+                    <div class="nav__search">
+                        <a href=""><img src="image/search.png" alt=""></a>
+                        <a href=""><img src="image/shop.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- <div class="header__bottom">
+            <h1 class="title">AirPods Pro</h1>
+            <a href="https://www.apple.com/uz/airpods/" class="title__btn">
+                <p class="title__writ">official site</p>
+                <img src="image/vec.png" alt="" class="quest">
+            </a>
+        </div> -->
+    </header>
+    <section class="banner">
+        <div class="container banner__wrap">
+            <div class="row">
+                <h3 class="sh__h">Store.</h3>
+                <div class="sh">The best way to buy the products you love.</div>
+            </div>
+        </div>
+    </section>
+    <section class="iphone">
+        <div class="container">
+            <div class="phone__content">
+                <div class="phone__card">
+                    <h2 class="phone__heading">Mac</h2>
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-14-16-mac-nav-202301?wid=200&hei=130&fmt=png-alpha&.v=1670959891635" alt="" class="phone__img">
+                    <p class="phone__price"></p>
+                    <a href="" class="phone__btn">VIEW</a>
+                </div>
+                <div class="phone__card">
+                    <h2 class="phone__heading">iPhone</h2>
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202209_GEO_US?wid=200&hei=130&fmt=png-alpha&.v=1661027785546" alt="" class="phone__img">
+                    <p class="phone__price"></p>
+                    <a href="https://www.apple.com/uz/iphone-11/specs/" class="phone__btn">VIEW</a>
+                </div>
+                <div class="phone__card">
+                    <h2 class="phone__heading">iPad</h2>
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=200&hei=130&fmt=png-alpha&.v=1664912135437" alt="" class="phone__img">
+                    <p class="phone__price"></p>
+                    <a href="https://www.apple.com/uz/iphone-se/" class="phone__btn">VIEW</a>
+                </div>
+                <div class="phone__card">
+                    <h2 class="phone__heading">Apple watch</h2>
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-watch-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1661796454103" alt="" class="phone__img">
+                    <p class="phone__price"></p>
+                    <a href="" class="phone__btn">VIEW</a>   
+                </div>
+                <div class="phone__card">
+                    <h2 class="phone__heading">Airpods</h2>
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airpods-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660676485885" alt="" class="phone__img">
+                    <p class="phone__price"></p>
+                    <a href="" class="phone__btn">VIEW</a>   
+                </div>
+                <div class="phone__card">
+                    <h2 class="phone__heading">Accessories</h2>
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-accessories-nav-202209?wid=200&hei=130&fmt=png-alpha&.v=1660677092974" alt="" class="phone__img">
+                    <p class="phone__price"></p>
+                    <a href="" class="phone__btn">VIEW</a>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+    
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+    
+        .swiper {
+          width: 100%;
+          padding-top: 50px;
+          padding-bottom: 50px;
+        }
+    
+        .swiper-slide {
+          background-position: center;
+          background-size: cover;
+          width: 500px;
+          height: 700px;
+        }
+
+        .swiper{
+          display: flex;
+          box-sizing: border-box;
+        }
+    
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+        }
+      </style>
+    <section class="produuct__card">
+        <section class="row">
+            <h3 class="sh__h">The last.</h3>
+            <div class="sh">Product</div>
+        </section>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./image/card1.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/card2.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/card3.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/card4.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/card5.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/card6.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/card7.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/card8.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/card9.jpeg" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </section>
+    <section class="">
+              
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer__content">
+                <a href="" class="footer__logo"><img src="image/footer_logo.png" alt="" class="footer img"></a>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="" class="link"></a></li>
+                    <li class="footer__item"><a href="" class="link"></a></li>
+                    <li class="footer__item"><a href="" class="link"></a></li>
+                </ul>
+                <div class="footer__moon">
+                    <a href="" class="fee"><img src="image/visa.png" alt="" class="fee__img"></a>
+                    <a href="" class="fee"><img src="image/mastercard.png" alt="" class="fee__img"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+</body>
+</html>
